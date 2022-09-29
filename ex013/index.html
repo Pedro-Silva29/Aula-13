@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+
+    <link rel="stylesheet" href="plugins/bootstrap-5.2.1-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1>Inserção de videos hospedados localmente: </h1>
+    <p>Este video esta hospedado no meu próprio servidor</p>
+    <video width="560" poster="imagens-capa.jpg" controls altoplay loop>
+        <source src="videos/universo1.mp4" type="video/mp4">
+        <p>Seu navegador não compatibilidade com seu navegador. </p>
+    </video>
+
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/7GXOPWQNlKs"
+        title="O SOM DE UM BURACO NEGRO [4K]" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+    <div class="">
+        <div class="row">
+            <h1>Inserindo videos na horizontal</h1>
+            <div class="col-sm-5 col-md-6">
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/GbJJRsS6OR4"
+                    title="Buracos Negros Explicados" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0"> <iframe width="500" height="300"
+                    src="https://www.youtube.com/embed/6NU_8fKpBuE"
+                    title="DURMA EM 15 MINUTOS AO SOM DE CHUVA - TELA PRETA" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
